@@ -3,31 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- meta tags -->
-    <meta content="The Lion Company is a roaring success in the world of project management and
+    <meta name="description" content="The Lion Company is a roaring success in the world of project management and
     commercial agencies. Founded in 2021, the company has quickly become a force to be reckoned with.
     With its team of experienced professionals and its commitment to excellence, The Lion Company is the
-    go-to source for businesses of all sizes." name="description">
-    <meta
-        content="project management commercial agencies roaring success force to be reckoned with experienced professionals commitment to excellence go-to source businesses of all sizes founded in 2021 rapid growth client satisfaction innovative solutions award-winning services"
-        name="keywords">
-    <meta content="Lion Company" name="author">
+    go-to source for businesses of all sizes.">
+    <meta name="keywords"
+        content="project management commercial agencies roaring success force to be reckoned with experienced professionals commitment to excellence go-to source businesses of all sizes founded in 2021 rapid growth client satisfaction innovative solutions award-winning services">
+    <meta name="author" content="Lion Company">
     <!-- bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- aos -->
     <link rel="stylesheet" href="./assets/css/aos.css">
     <!-- owl carousel -->
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/New folder/owl.carousel.css"> -->
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/New folder/owl.theme.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/New folder/owl.transitions.css"> -->
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/imgs/Lion.png">
     <meta property="title" content="Lion Company">
-    <title>Lion Company</title>
+    <title>Lion Company En</title>
 </head>
 
 <body>
@@ -174,12 +170,12 @@
     <!-- end of who us -->
 
     <!-- 3 Cards Section -->
-    <div class="container d-flex justify-content-center gap-4 flex-wrap my-5" data-aos="zoom-in-down"
+    <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
+        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
         data-aos-duration="1500">
-        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-share-from-square text-light fs-4"></i></div>
-            <img src="/assets/imgs/working.jpg" class="card-img-top" style="height: 12rem" alt="...">
+            <img src="./assets/imgs/working.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-2">
                 <h5 class="card-title">Our Vision</h5>
                 <p class="card-text">We aspire to be the lion-hearted leader in our sector, recognized locally and
@@ -189,10 +185,11 @@
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;">
+        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
+        data-aos-duration="1500">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-calendar-check text-light fs-4"></i></div>
-            <img src="/assets/imgs/cop.jpg" class="card-img-top" style="height: 12rem" alt="...">
+            <img src="./assets/imgs/cop.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-2">
                 <h5 class="card-title">Our Values</h5>
                 <p class="card-text">The Lion Company is a leader in public procurement, project management, and import
@@ -201,11 +198,12 @@
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;">
+        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
+        data-aos-duration="1500">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-solid fa-brush text-light fs-4"></i>
             </div>
-            <img src="/assets/imgs/planning.jpg" class="card-img-top" style="height: 12rem" alt="...">
+            <img src="./assets/imgs/planning.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-2">
                 <h5 class="card-title">Our Mission</h5>
                 <p class="card-text">The Lion Company is a lion-hearted leader in the field of public procurement,
@@ -491,33 +489,12 @@
                     <button onclick="sendEmail()" class="btn btn-primary my-3">Send Message</button>
                 </div>
             </div>
-            <script>
-                function sendEmail() {
-                    // Get the subject and message values from the input fields.
-                    var subject = document.getElementById("exampleFormControlInputSub").value;
-                    var myName = document.getElementById("exampleFormControlInputName").value;
-                    var message = document.getElementById("exampleFormControlTextarea1").value;
-                    var emailProvided = document.getElementById("exampleFormControlemail").value;
-
-                    // Validate the subject and message values.
-                    if (subject === "" || message === "" || myName === "" || emailProvided === "") {
-                        alert("Please enter all fields of the form.");
-                        return;
-                    }
-
-                    // Generate the mailto link.
-                    var mailtoLink = "mailto:info@lioncompany00.com?subject=" + subject + "&body=Hello iam " + myName + " , email that i provided in the form is " + emailProvided + " and i want to say " + message;
-
-                    // Open the mailto link in the user's email client.
-                    window.location.href = mailtoLink;
-                }
-            </script>
         </div>
     </div>
     <!-- Location map & form -->
 
     <!-- 2 Cards @Contact us -->
-    <div class="container d-flex justify-content-start gap-4 flex-wrap my-5">
+    <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
         <div class="card col-3 text-center py-4 shadow" style="width: 16rem;height: 12rem;">
             <i class="fa-solid fa-envelope fs-2" style="color: #002db3;"></i>
             <div class="card-body">
@@ -590,51 +567,7 @@
     <!-- bootstrap -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <!-- jquery logic -->
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 2000
-            });
-            $(".owl-carousel-panner").owlCarousel({
-                items: 1,
-                loop: true,
-                dots: false,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                animateIn: "fadeIn",
-                animateOut: "fadeOut"
-            });
-            $(".owl-carousel-whous").owlCarousel({
-                items: 1,
-                loop: true,
-                // dots: false,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                animateIn: "fadeIn",
-                animateOut: "fadeOut"
-            });
-            $(".sectors-owl").owlCarousel({
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    480: {
-                        items: 2
-                    },
-                    768: {
-                        items: 5
-                    }
-                },
-                loop: true,
-                dots: true,
-                autoplay: true,
-                autoplayTimeout: 2000,
-                animateIn: "fadeIn",
-                animateOut: "fadeOut"
-            });
-        });
-    </script>
+    <script src="./assets/js/main.js"></script>
     <!-- end of script -->
 
 </body>
