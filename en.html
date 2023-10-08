@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- meta tags -->
     <meta name="description" content="The Lion Company is a roaring success in the world of project management and
     commercial agencies. Founded in 2021, the company has quickly become a force to be reckoned with.
     With its team of experienced professionals and its commitment to excellence, The Lion Company is the
@@ -12,13 +11,7 @@
     <meta name="keywords"
         content="project management commercial agencies roaring success force to be reckoned with experienced professionals commitment to excellence go-to source businesses of all sizes founded in 2021 rapid growth client satisfaction innovative solutions award-winning services">
     <meta name="author" content="Lion Company">
-    <!-- bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- aos -->
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/imgs/Lion.png">
@@ -31,7 +24,7 @@
     <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="assets/imgs/Lion.png" alt="Logo" width="60px">
+                <img src="assets/imgs/LionWhite.png" alt="Logo" width="60px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +42,7 @@
                                     href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lines" style="color: white;" href="#sectorId">sectors</a>
+                                <a class="nav-link lines" style="color: white;" href="#sectorId">Sectors</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link lines" style="color: white;" aria-current="page" href="#partners">Our
@@ -67,7 +60,7 @@
                     </div>
 
                 </div>
-                <a class="btn btn-outline-primary" type="submit" href="/">العربية</a>
+                <a class="btn btn-outline-light" type="submit" href="/">العربية</a>
             </div>
         </nav>
     </div>
@@ -75,38 +68,33 @@
 
     <!-- start of banner -->
     <div class="panner">
-        <div class="owl-carousel owl-carousel-panner owl-theme owl-loaded panner-owl">
-            <div class="owl-stage-outer">
-                <div class="owl-stage">
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner1.jpg" alt="paner1">
-                    </div>
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                    </div>
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                    </div>
+        <div id="carouselExampleSlidesOnly" class="panner-owl carousel slide" data-bs-ride="carousel"
+            data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imgs/paner1.jpg" class="d-block w-100" alt="paner1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/paner2.jpg" class="d-block w-100" alt="paner2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/paner3.jpg" class="d-block w-100" alt="paner3">
                 </div>
             </div>
         </div>
-        <div class="panner-content d-flex flex-column justify-content-center align-items-center">
-            <img class="imgCover" src="./assets/imgs/Lion.png" alt="" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="1000">
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="1000"
-                class="text-center">
+        <div class="panner-content text-center">
+            <img class="imgCover" src="./assets/imgs/LionWhite.png" alt="">
+            <div class="text-center">
                 <h1>Lion Company</h1>
                 <h3>For Project Management and Commercial Agencies</h3>
             </div>
-            <h4 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="2000">let's
-                start
-                now with us</h4>
+            <h4>let's start now with us</h4>
         </div>
     </div>
     <!-- end of banner -->
 
     <!-- start of who us -->
-    <div class="container my-5 whous shadow p-4" data-aos="flip-left" data-aos-duration="1500" id="about">
+    <div class="container my-5 whous shadow p-4" id="about">
         <div class="myNum d-flex justify-content-between align-items-center flex-wrap">
             <div class="myNum-content d-flex justify-content-center align-items-center">
                 <i class="fa-solid fa-gear me-3"></i>
@@ -137,27 +125,48 @@
                 </div>
             </div>
         </div>
-        <div class="whous d-flex justify-content-between flex-wrap gap-3 mt-5">
-            <div class="owl-carousel owl-carousel-whous owl-theme owl-loaded">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage">
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner1.jpg" alt="paner1">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                        </div>
+        <div class="whous d-flex justify-content-around flex-wrap gap-3 mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel"
+                data-bs-interval="2000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/imgs/paner1.jpg" class="d-block w-100" height="250" alt="paner1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner2.jpg" class="d-block w-100" height="250" alt="paner2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner3.jpg" class="d-block w-100" height="250" alt="paner3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner4.jpg" class="d-block w-100" height="250" alt="paner4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner5.jpg" class="d-block w-100" height="250" alt="paner5">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <div class="whous-content">
                 <p><span>Who We Are</span> The Lion Company is a roaring success in the world of project management and
@@ -171,8 +180,7 @@
 
     <!-- 3 Cards Section -->
     <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
-        data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-share-from-square text-light fs-4"></i></div>
             <img src="./assets/imgs/working.jpg" class="card-img-top" style="height: 12rem" alt="...">
@@ -185,8 +193,7 @@
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
-        data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-calendar-check text-light fs-4"></i></div>
             <img src="./assets/imgs/cop.jpg" class="card-img-top" style="height: 12rem" alt="...">
@@ -198,17 +205,18 @@
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down"
-        data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-solid fa-brush text-light fs-4"></i>
             </div>
             <img src="./assets/imgs/planning.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-2">
                 <h5 class="card-title">Our Mission</h5>
-                <p class="card-text">The Lion Company is a lion-hearted leader in the field of public procurement,
+                <p class="card-text">The Lion Company is a lion-hearted leader in the field of public
+                    procurement,
                     project management, and import and export. We are committed to providing our customers with
                     comprehensive and innovative solutions that meet their needs and exceed their expectations.</p>
+                <span id="sectorId"></span>
 
             </div>
         </div>
@@ -217,35 +225,35 @@
     <!-- 3 Cards Section -->
 
     <!-- start of sectors -->
-    <section id="sectorId" class="sectors container">
+    <section class="sectors container">
         <h4>Our Business Sectors</h4>
         <h2>We offer our specialized services in several sectors, including</h2>
         <div class="sectors-content d-flex justify-content-between align-items-baseline flex-wrap">
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-gears"></i>
                 <p>Projects management</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-arrows-rotate"></i>
                 <p>Import and Export</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-shop"></i>
                 <p>Commercial agencies</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-industry"></i>
                 <p>Public supplies</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-comment-medical"></i>
                 <p>Providing consultations</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-brands fa-searchengin"></i>
                 <p>Technical and engineering inspection</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con" data-aos="flip-up">
                 <i class="fa-solid fa-briefcase-medical"></i>
                 <p>Medical supplies</p>
             </div>
@@ -259,23 +267,23 @@
             <h4>Our Customers</h4>
             <h2>Our Distinguished Customers</h2>
             <div class="sectors-content d-flex justify-content-between align-items-baseline flex-wrap">
-                <div class="sec-con sec-con-can" data-aos="flip-up" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-lightbulb"></i>
                     <p>A professional and experienced work team in our various fields</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-up" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-gopuram"></i>
                     <p>Use the latest technologies and methodologies in project management</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-up" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-tower-observation"></i>
                     <p>A wide network of reliable suppliers and local and international partners</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-up" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-gears"></i>
                     <p>Outstanding and competitive supply ability</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-up" data-aos-duration="1500">
+                <div class="sec-con sec-con-can" id="partners">
                     <i class="fa-brands fa-watchman-monitoring"></i>
                     <p>Our commitment to achieving customer satisfaction and goals</p>
                 </div>
@@ -285,40 +293,53 @@
     <!-- end of sectors -->
 
     <!-- start of Capacity -->
-    <section class="sectors sectorsCan mb-5 p-5" id="partners">
-        <div class="container" data-aos="flip-right" data-aos-duration="1500">
+    <section class="sectors sectorsCan mb-5 p-5">
+        <div class="container">
             <h4>Capacity</h4>
             <h2>Our capabilities</h2>
-            <div class="owl-carousel owl-theme owl-loaded sectors-owl">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage">
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/awqaff.png" alt="paner1">
+            <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide multi-item" data-bs-ride="carousel"
+                    data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/253572957_4673645822671109_6103211491949917075_n.png"
+                                        class="d-block w-100" alt="First image" height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/edu.png" class="d-block w-100" alt="Second image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/cairo.png" class="d-block w-100" alt="Third image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/giza.png" class="d-block w-100" alt="Fourth image"
+                                        height="150">
+                                </div>
+                            </div>
                         </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/253572957_4673645822671109_6103211491949917075_n.png"
-                                alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/edu.png" alt="paner3">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/cairo.png" alt="paner1">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/giza.png" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/logo-icon2.png" alt="paner3">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/petrogas.png" alt="paner1">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/sekka.png" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/partners/entag.png" alt="paner2">
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/logo-icon2.png" class="d-block w-100"
+                                        alt="Fifth image" height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/petrogas.png" class="d-block w-100"
+                                        alt="Sixth image" height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/sekka.png" class="d-block w-100" alt="Fourth image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/entag.png" class="d-block w-100" alt="Fifth image"
+                                        height="150">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -443,7 +464,7 @@
 
     <!-- Location map & form -->
     <div>
-        <div class="container" data-aos="zoom-in" data-aos-duration="1500" id="contact">
+        <div class="container">
             <div>
                 <p>Contact</p>
                 <div class="line"></div>
@@ -494,7 +515,7 @@
     <!-- Location map & form -->
 
     <!-- 2 Cards @Contact us -->
-    <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
+    <div class="container d-flex justify-content-center  justify-content-md-start gap-4 flex-wrap my-5">
         <div class="card col-3 text-center py-4 shadow" style="width: 16rem;height: 12rem;">
             <i class="fa-solid fa-envelope fs-2" style="color: #002db3;"></i>
             <div class="card-body">
@@ -552,21 +573,7 @@
     <!-- end of footer -->
 
     <!-- start of script -->
-    <!-- jquery -->
-    <script src="./assets/js/jquery.min.js"></script>
-    <!-- counterup & waypoint -->
-    <script src="./assets/js/waypoint.js"></script>
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <!-- aos -->
-    <script src="./assets/js/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- owl carousel -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <!-- bootstrap -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <!-- jquery logic -->
     <script src="./assets/js/main.js"></script>
     <!-- end of script -->
 

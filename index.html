@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- meta tags -->
     <meta name="description" content="The Lion Company is a roaring success in the world of project management and
     commercial agencies. Founded in 2021, the company has quickly become a force to be reckoned with.
     With its team of experienced professionals and its commitment to excellence, The Lion Company is the
@@ -12,13 +11,7 @@
     <meta name="keywords"
         content="project management commercial agencies roaring success force to be reckoned with experienced professionals commitment to excellence go-to source businesses of all sizes founded in 2021 rapid growth client satisfaction innovative solutions award-winning services">
     <meta name="author" content="Lion Company">
-    <!-- bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- aos -->
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/imgs/Lion.png">
@@ -42,7 +35,7 @@
     <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="assets/imgs/Lion.png" alt="Logo" width="60px">
+                <img src="assets/imgs/LionWhite.png" alt="Logo" width="60px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +71,7 @@
                     </div>
 
                 </div>
-                <a class="btn btn-outline-primary" type="submit" href="./en.html">English</a>
+                <a class="btn btn-outline-light" type="submit" href="./en.html">English</a>
             </div>
         </nav>
     </div>
@@ -86,37 +79,34 @@
 
     <!-- start of banner -->
     <div class="panner">
-        <div class="owl-carousel owl-carousel-panner owl-theme owl-loaded panner-owl">
-            <div class="owl-stage-outer">
-                <div class="owl-stage">
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner1.jpg" alt="paner1">
-                    </div>
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                    </div>
-                    <div class="owl-item">
-                        <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                    </div>
+        <div id="carouselExampleSlidesOnly" class="panner-owl carousel slide" data-bs-ride="carousel"
+            data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imgs/paner1.jpg" class="d-block w-100" alt="paner1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/paner2.jpg" class="d-block w-100" alt="paner2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/paner3.jpg" class="d-block w-100" alt="paner3">
                 </div>
             </div>
         </div>
-        <div class="panner-content d-flex flex-column justify-content-center align-items-center">
-            <img class="imgCover" src="./assets/imgs/Lion.png" alt="" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="1000">
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="1000"
-                class="text-center">
+        <div class="panner-content text-center">
+            <img class="imgCover" src="./assets/imgs/LionWhite.png" alt="">
+            <div class="text-center">
                 <h1>شركة الاسد</h1>
                 <h3>لإدارة المشروعات والتوكيلات التجارية</h3>
             </div>
-            <h4 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="2000">ابدأ معنا
+            <h4>ابدأ معنا
                 الان</h4>
         </div>
     </div>
     <!-- end of banner -->
 
     <!-- start of who us -->
-    <div class="container my-5 whous shadow p-4" data-aos="flip-left" data-aos-duration="1500" id="about">
+    <div class="container my-5 whous shadow p-4" id="about">
         <div class="myNum d-flex justify-content-between align-items-center flex-wrap">
             <div class="myNum-content d-flex justify-content-center align-items-center">
                 <i class="fa-solid fa-gear ms-3"></i>
@@ -147,27 +137,48 @@
                 </div>
             </div>
         </div>
-        <div class="whous d-flex justify-content-between flex-wrap gap-3 mt-5">
-            <div class="owl-carousel owl-carousel-whous owl-theme owl-loaded">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage">
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner1.jpg" alt="paner1">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner2.jpg" alt="paner2">
-                        </div>
-                        <div class="owl-item">
-                            <img src="./assets/imgs/paner3.jpg" alt="paner3">
-                        </div>
+        <div class="whous d-flex justify-content-around flex-wrap gap-3 mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel"
+                data-bs-interval="2000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/imgs/paner1.jpg" class="d-block w-100" height="250" alt="paner1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner2.jpg" class="d-block w-100" height="250" alt="paner2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner3.jpg" class="d-block w-100" height="250" alt="paner3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner4.jpg" class="d-block w-100" height="250" alt="paner4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/paner5.jpg" class="d-block w-100" height="250" alt="paner5">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <div class="whous-content">
                 <span>من نحن </span>شركة الأسد لإدارة المشروعات والتوكيلات التجارية هي شركة ذات مسئوليه محدودة تأسست
@@ -180,43 +191,46 @@
 
     <!-- 3 Cards Section -->
     <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down" data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-share-from-square text-light fs-4"></i></div>
             <img src="./assets/imgs/working.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-3">
                 <h5 class="card-title">الرسالة</h5>
-                <p class="card-text">تهدف شركة الأسد لإدارة المشروعات والتوكيلات التجارية إلى تقديم حلول متكاملة ومبتكرة
+                <p class="card-text parg-justfied">تهدف شركة الأسد لإدارة المشروعات والتوكيلات التجارية إلى تقديم حلول
+                    متكاملة ومبتكرة
                     في مجال التوريدات العمومية وإدارة المشاريع والاستيراد والتصدير. نحن نسعى لتلبية احتياجات عملائنا
                     وتحقيق رضاهم من خلال تقديم خدمات محترفة وفعالة، والتميز في تنفيذ المشاريع والالتزام بأعلى معايير
                     الجودة والموثوقية.</p>
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down" data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-regular fa-calendar-check text-light fs-4"></i></div>
             <img src="./assets/imgs/cop.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-3">
                 <h5 class="card-title">الرؤية</h5>
-                <p class="card-text">نطمح شركة الأسد لإدارة المشروعات والتوكيلات التجارية الشركة الرائدة في
-                    قطاعنا، معترف بها على المستوى المحلي والدولي. نسعى لتوسيع قاعدة عملائنا وبناء شراكات استراتيجية
-                    قوية، وتطوير وتقديم حلول مبتكرة ومستدامة، وتحقيق النجاح المشترك والنمو المستدام.</p>
+                <p class="card-text parg-justfied">نطمح نحن شركة الأسد لإدارة المشروعات و التوكيلات التجارية ان تكون
+                    الشركة رائدة فى
+                    قطاعنا، , و معترف بها على المستوى المحلي والدولي. و نسعى لتوسيع قاعدة عملائنا وبناء شراكات
+                    استراتيجية قوية، وتطوير وتقديم حلول مبتكرة ومستدامة، وتحقيق النجاح المشترك والنمو المستدام.</p>
 
             </div>
         </div>
-        <div class="card shadow cardsty" style="width: 18rem;" data-aos="zoom-in-down" data-aos-duration="1500">
+        <div class="card shadow cardsty" style="width: 18rem;">
             <div class="iiccon d-flex justify-content-center align-items-center"><i
                     class="fa-solid fa-brush text-light fs-4"></i>
             </div>
             <img src="./assets/imgs/planning.jpg" class="card-img-top" style="height: 12rem" alt="...">
             <div class="card-body mt-3">
                 <h5 class="card-title">القيم</h5>
-                <p class="card-text">شركة الأسد لإدارة المشروعات والتوكيلات التجارية تتمحور حول الاحترافية والفعالية
+                <p class="card-text parg-justfied">شركة الأسد لإدارة المشروعات والتوكيلات التجارية تتمحور حول الاحترافية
+                    والفعالية
                     والجودة والموثوقية. نحن نسعى جاهدين لتحقيق رضا العملاء من خلال تقديم حلول متكاملة ومبتكرة في مجال
                     التوريدات العمومية وإدارة المشاريع والاستيراد والتصدير. نحن نؤمن بأهمية بناء شراكات استراتيجية قوية
                     وتوسيع قاعدة عملائنا. نطمح لأن نكون الشركة الرائدة في قطاعنا.</p>
-
+                <span id="sectorId"></span>
             </div>
         </div>
 
@@ -228,31 +242,31 @@
         <h4>قطاعات العمل لدينا</h4>
         <h2>نحن نقدم خدماتنا المتخصصة في عدة قطاعات، بما في ذلك</h2>
         <div class="sectors-content d-flex justify-content-between align-items-center flex-wrap">
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-gears"></i>
                 <p>إدارة المشروعات</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-arrows-rotate"></i>
                 <p>الاستيراد والتصدير</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-shop"></i>
                 <p>التوكيلات التجارية</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-industry"></i>
                 <p>التوريدات العمومية</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-comment-medical"></i>
                 <p>تقديم الاستشارات</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-brands fa-searchengin"></i>
                 <p>الفحص الفني والهندسي</p>
             </div>
-            <div class="sec-con" data-aos="flip-up" data-aos-duration="1500">
+            <div class="sec-con">
                 <i class="fa-solid fa-briefcase-medical"></i>
                 <p>المستلزمات الطبية</p>
             </div>
@@ -266,23 +280,23 @@
             <h4>القدرات</h4>
             <h2>قدراتنا</h2>
             <div class="sectors-content d-flex justify-content-between align-items-center flex-wrap">
-                <div class="sec-con sec-con-can" data-aos="flip-down" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-lightbulb"></i>
                     <p>فريق عمل محترف وذو خبرة في مجالاتنا المختلفة.</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-down" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-gopuram"></i>
                     <p>استخدام أحدث التقنيات والمنهجيات في إدارة المشاريع.</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-down" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-tower-observation"></i>
                     <p>شبكة واسعة من الموردين وشركاء العمل المحليين والدوليين.</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-down" data-aos-duration="1500">
+                <div class="sec-con sec-con-can">
                     <i class="fa-solid fa-gears"></i>
                     <p>قدرة توريد متميزة وتنافسية.</p>
                 </div>
-                <div class="sec-con sec-con-can" data-aos="flip-down" data-aos-duration="1500">
+                <div class="sec-con sec-con-can" id="partners">
                     <i class="fa-brands fa-watchman-monitoring"></i>
                     <p>التزامنا بتحقيق رضا العملاء وتحقيق أهدافهم وفي الوقت المحدد.</p>
                 </div>
@@ -293,7 +307,60 @@
 
     <!-- start of Capacity -->
     <section class="sectors sectorsCan mb-5 p-5">
-        <div class="container" data-aos="flip-right" data-aos-duration="1500" id="partners">
+        <div class="container">
+            <h4>عملائنا</h4>
+            <h2>عملائنا المميزون</h2>
+            <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide multi-item" data-bs-ride="carousel"
+                    data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/253572957_4673645822671109_6103211491949917075_n.png"
+                                        class="d-block w-100" alt="First image" height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/edu.png" class="d-block w-100" alt="Second image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/cairo.png" class="d-block w-100" alt="Third image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/giza.png" class="d-block w-100" alt="Fourth image"
+                                        height="150">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/logo-icon2.png" class="d-block w-100" alt="Fifth image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/petrogas.png" class="d-block w-100" alt="Sixth image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/sekka.png" class="d-block w-100" alt="Fourth image"
+                                        height="150">
+                                </div>
+                                <div class="col-md-3 owl-item">
+                                    <img src="./assets/imgs/partners/entag.png" class="d-block w-100" alt="Fifth image"
+                                        height="150">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="sectors sectorsCan mb-5 p-5">
+        <div class="container" id="partners">
             <h4>عملائنا</h4>
             <h2>عملائنا المميزون</h2>
             <div class="owl-carousel owl-theme owl-loaded sectors-owl">
@@ -324,14 +391,14 @@
                         <div class="owl-item me-5">
                             <img src="./assets/imgs/partners/sekka.png" alt="paner2">
                         </div>
-                        <div class="owl-item me-5">
+                        <div class="owl-item me-5" id="contact">
                             <img src="./assets/imgs/partners/entag.png" alt="paner2">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- end of Capacity -->
 
     <!-- 6 Cards Section -->
@@ -450,7 +517,7 @@
 
     <!-- Location map & form -->
     <div>
-        <div class="container" data-aos="zoom-in" data-aos-duration="1500" id="contact">
+        <div class="container" id="contact">
             <div>
                 <p>تواصل</p>
                 <div class="line"></div>
@@ -473,7 +540,7 @@
                         <h4>العنوان</h4>
                     </div>
                     <div>
-                        <p>مدينة العبور - الحي الثاني - محلية 34 - مبنى شريف شقة 6</p>
+                        <p>مدينة العبور - الحي الثاني - محلية 34 - عمارات شريف - شقة 6</p>
                     </div>
                 </div>
             </div>
@@ -502,7 +569,7 @@
     <!-- Location map & form -->
 
     <!-- 2 Cards @Contact us -->
-    <div class="container d-flex justify-content-center gap-4 flex-wrap my-5">
+    <div class="container d-flex justify-content-center justify-content-md-start gap-4 flex-wrap my-5">
         <div class="card col-3 text-center py-4 shadow" style="width: 16rem;height: 12rem;">
             <i class="fa-solid fa-envelope fs-2" style="color: #002db3;"></i>
             <div class="card-body">
@@ -547,8 +614,8 @@
                     <p><i class="fa-solid fa-envelope ms-2"></i><a href="mailto:info@lioncompany00.com"
                             class="text-decoration-none text-light">info@lioncompany00.com</a></p>
                     <p><i class="fa-solid fa-location-dot ms-2"></i><a href="https://maps.app.goo.gl/pvnxv27EMi1tPjNr6"
-                            class="text-decoration-none text-light">مدينة العبور - الحي الثاني - محلية 34 - مبنى
-                            شريف شقة 6</a></p>
+                            class="text-decoration-none text-light">مدينة العبور - الحي الثاني - محلية 34 - عمارات
+                            شريف - شقة 6</a></p>
                 </div>
             </div>
         </div>
@@ -559,21 +626,7 @@
     <!-- end of footer -->
 
     <!-- start of script -->
-    <!-- jquery -->
-    <script src="./assets/js/jquery.min.js"></script>
-    <!-- counterup & waypoint -->
-    <script src="./assets/js/waypoint.js"></script>
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <!-- aos -->
-    <script src="./assets/js/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- owl carousel -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <!-- bootstrap -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <!-- jquery logic -->
     <script src="./assets/js/main.js"></script>
     <!-- end of script -->
 
